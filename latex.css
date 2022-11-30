@@ -66,7 +66,7 @@ p {
 }
 
 ul, h1, .right, p, th, td {
-  font-family: 游明朝;
+  font-family:"Times New Roman", 游明朝;
   font-weight: normal;
 }
 
@@ -82,7 +82,7 @@ h1 {
 }
 
 h2, h3, h4, h5, strong {
-  font-family: "游ゴシック Medium";
+  font-family: "Segoe UI Semibold", "游ゴシック Medium";
   font-weight: 600;
 }
 
