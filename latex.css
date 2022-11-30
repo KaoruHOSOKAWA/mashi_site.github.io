@@ -76,7 +76,7 @@ h1 {
   /* h1 の下線 を消す */
 }
 
-h2, h3, h4, h5 strong {
+h2, h3, h4, h5, strong {
   font-family: Arial, "游ゴシック Medium";
   font-weight: bold;
 }
