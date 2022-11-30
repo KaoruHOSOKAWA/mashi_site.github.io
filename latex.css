@@ -40,7 +40,7 @@ table > tbody > tr > td {
 }
 
 pre code, :not(pre):not(.hljs)>code {
-  font-family: Consolas, 'Yu Gothic UI', monospace;
+  font-family: Consolas, 'Yu Gothic UI', 'Courier New', monospace;
   color: black;
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 ul, h1, .right, p, th, td {
-  font-family:"Times New Roman", 游明朝;
+  font-family:"Times New Roman", 游明朝, serif;
   font-weight: normal;
 }
 
@@ -82,7 +82,7 @@ h1 {
 }
 
 h2, h3, h4, h5, strong {
-  font-family: "Segoe UI Semibold", "游ゴシック Medium";
+  font-family: "Segoe UI Semibold", "游ゴシック Medium", sans-serif;
   font-weight: 600;
 }
 
