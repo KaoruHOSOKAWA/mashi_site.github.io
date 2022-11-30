@@ -1,12 +1,12 @@
 /* 
-<link href="https://kaoruhosokawa.github.io/test-site/latex.css" rel="stylesheet">
+<link href="https://raw.githubusercontent.com/KaoruHOSOKAWA/test-site/main/latex.css" rel="stylesheet">
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 <script type="text/x-mathjax-config">
  MathJax.Hub.Config(
   {
     tex2jax: {
-     inlineMath: [['$', '$']],
-     displayMath: [['$$','$$']]
+     inlineMath: [['$', '$'] ],
+     displayMath: [ ['$$','$$']]
     }
   }
  );
@@ -22,13 +22,16 @@ table {
   border-bottom: 1px solid;
   border-top: 1px solid;
 }
+
 table > thead > tr > th {
   border-bottom: 4px double;
   font-weight: normal;
 }
+
 table > tbody > tr + tr > td {
 	border-top: 0px solid;
 }
+
 table > thead > tr > th,
 table > thead > tr > td,
 table > tbody > tr > th,
@@ -36,20 +39,18 @@ table > tbody > tr > td {
 	padding: 1px 10px;
 }
 
+pre code, :not(pre):not(.hljs)>code {
+  font-family: Consolas, 'Yu Gothic UI', monospace;
+  color: black;
+}
 
 pre code {
-  /* 拡張機能のコード色を黒にしている */
-  color: black;
   tab-size: 4;
-  font-family: Consolas, 'Yu Gothic UI', monospace;
 }
 
 :not(pre):not(.hljs)>code {
-  /* 拡張機能のコード色を黒にしている */
-  color: black;
   /* エラーにならないように、古い色を変更する */
   font-size: inherit;
-  font-family: Consolas, 'Yu Gothic UI', monospace;
 }
 
 code {
@@ -65,7 +66,8 @@ p {
 }
 
 ul, h1, .right, p, th, td {
-  font-family: "Times New Roman", 游明朝;
+  font-family: 游明朝;
+  font-weight: normal;
 }
 
 img {
@@ -80,8 +82,8 @@ h1 {
 }
 
 h2, h3, h4, h5, strong {
-  font-family: Arial, "游ゴシック Medium";
-  font-weight: bold;
+  font-family: "游ゴシック Medium";
+  font-weight: 600;
 }
 
 body {
