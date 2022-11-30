@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="./latex.css" rel="stylesheet">
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$', '$'] ], displayMath: [ ['$$','$$']]
+    }
+  });
+</script>
+  <title>LaTeX の CSS を作る</title>
+</head>
+
+<body>
+  <h1>メインタイトルROS</h1>
+  <h2>最上位の見出し</h2>
+  <h3>小見出し</h3>
+  <h4>孫見出し</h4>
+  <p>これはsin波です</p>
+  <img src="./sin.svg" alt="sin 波">
+  <p>'... toki jan la, ni li nasin telo, li linja pi telo mama. ali o, ijo ko walo ni li seme?' jan sona li toki tawa
+    jan mute. tenpo sama la, jan sona li pilin e ijo walo kepeken luka. ijo walo li lon sitelen pi mun mute lon sinpin
+    tomo pimeja. jan Kapana li sewi e luka. jan mute ante li sewi e luka kin. jan Jopan li lukin sewi e luka.
+    <br>
+    taso, ona li pini, li sewi ala e luka. tenpo pini la, ona li lukin e lipu, li sona e ni: ni li mun mute. taso, tenpo
+    lili ni lon tomo sona la, ona li pilin lape, li jo ala e tenpo e lipu. ona li pilin e ni: ona li sona ala e ali.
+  </p>
+  <p>'... toki jan la, ni li nasin telo, li linja pi telo mama. ali o, ijo ko walo ni li seme?' jan sona li toki tawa
+    jan mute. tenpo sama la, jan sona li pilin e ijo walo kepeken luka. ijo walo li lon sitelen pi mun mute lon sinpin
+    tomo pimeja. jan Kapana li sewi e luka. jan mute ante li sewi e luka kin. jan Jopan li lukin sewi e luka. taso, ona
+    li pini, li sewi ala e luka. tenpo pini la, ona li lukin e lipu, li sona e ni: ni li mun mute. taso, tenpo lili ni
+    lon tomo sona la, ona li pilin lape, li jo ala e tenpo e lipu. ona li pilin e ni: ona li sona ala e ali.</p>
+  <p>strongタグを使用して、文字を<strong>太く</strong>しています。</p>
+  <p>bタグを使用して、文字を<b>太く</b>しています。</p>
+  <p>ここで<code>console.log("hello世界")</code>を実行しましょう。</p>
+  <table class="sample">
+    <tr>
+      <th>左上端</th>
+      <th>上中央</th>
+      <th>右上端</th>
+    </tr>
+    <tr>
+      <td>左中端</td>
+      <td>中中央</td>
+      <td>右中端</td>
+    </tr>
+    <tr>
+      <td>左下端</td>
+      <td>下中央</td>
+      <td>右下端</td>
+    </tr>
+    <tr>
+      <td>左上端</td>
+      <td>上中央</td>
+      <td>右上端</td>
+    </tr>
+    <tr>
+      <td>左中端</td>
+      <td>中中央</td>
+      <td>右中端</td>
+    </tr>
+    <tr>
+      <td>左下端</td>
+      <td>下中央</td>
+      <td>右下端</td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center">math</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center">$ \pi*r^2 $</td>
+      </tr>
+      <tr>
+        <td style="text-align:center">$ \pi*r^2 $</td>
+      </tr>
+      <tr>
+        <td style="text-align:center">$ \pi*r^2 $</td>
+      </tr>
+      <tr>
+        <td style="text-align:center">$ \pi*r^2 $</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
