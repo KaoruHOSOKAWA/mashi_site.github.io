@@ -31,10 +31,12 @@
 }
 
 .tab {
+  counter-increment: tbl;
   margin: 2em auto 1em auto;
 }
 
 .fig {
+  counter-increment: fgr;
   margin: 1em auto 2em auto;
 }
 
@@ -48,13 +50,11 @@ body {
 }
 
 div.fig::before {
-  counter-increment: fgr;
   white-space: pre-wrap;
   content: "図 " counter(fgr) "    ";
 }
 
 div.tab::before {
-  counter-increment: tbl;
   white-space: pre-wrap;
   content: "表 " counter(tbl) "    ";
 }
