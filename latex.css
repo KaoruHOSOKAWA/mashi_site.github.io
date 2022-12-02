@@ -27,7 +27,6 @@
 
 .tab, .fig {
   text-align: center;
-
   font-size: small;
 }
 
@@ -38,7 +37,6 @@
 .fig {
   margin: 1em auto 2em auto;
 }
-
 
 body {
   counter-reset: fgr;
@@ -125,7 +123,8 @@ h1 {
   border-bottom-width: 0;
   /* h1 の下線 を消す */
   margin-top: 60px;
-  line-height: 15px;
+  margin-bottom: 0;
+  line-height: 60px;
 }
 
 h2, h3, h4, h5, strong {
