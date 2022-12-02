@@ -47,16 +47,16 @@ body {
   margin: 9em 5em 6.5em 5em;
 }
 
-.fig::before {
+div.fig::before {
   counter-increment: fgr;
   white-space: pre-wrap;
-  content: "図 " counter(chapter) "    ";
+  content: "図 " counter(fgr) "    ";
 }
 
-.tab::before {
+div.tab::before {
   counter-increment: tbl;
   white-space: pre-wrap;
-  content: "表 " counter(chapter) "    ";
+  content: "表 " counter(tbl) "    ";
 }
 
 table {
